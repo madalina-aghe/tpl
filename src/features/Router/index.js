@@ -1,3 +1,3 @@
-import { Router } from "./Router.component";
+import { Router } from './Router.component'
 
-export {Router};
+export { Router }

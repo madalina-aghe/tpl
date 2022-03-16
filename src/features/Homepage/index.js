@@ -1,3 +1,3 @@
-import { Homepage } from "./Homepage.component";
+import { Homepage } from './Homepage.component'
 
-export {Homepage};
+export { Homepage }

@@ -1,12 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-import { Router } from './features/Router';
-
+import './App.css'
+import { Router } from './features/Router'
+import React from 'react'
 
 function App() {
-  return (
-    <Router />
-  );
+  return <Router />
 }
 
-export default App;
+export default App

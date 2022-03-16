@@ -1,8 +1,18 @@
-import { Homepage } from "../Homepage"
+import { Homepage } from '../Homepage'
+import React from 'react'
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
 
 // TODO: Add react router
-const Router = ({}) => {
-    return <Homepage />;
-};
+const Router = () => {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path='/homepage' element={<Homepage />} />
 
-export {Router};
+        <Route path='*' element={<Navigate to='/homepage' />} />
+      </Routes>
+    </BrowserRouter>
+  )
+}
+
+export { Router }
