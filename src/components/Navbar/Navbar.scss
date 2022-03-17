@@ -1,0 +1,25 @@
+.NavBar--border {
+  margin: 0;
+  padding: 0;
+}
+.NavBar--container {
+  display: flex;
+  background-color: #00cc00;
+  justify-content: center;
+}
+.NavBar--btns {
+  margin: 0px;
+  padding: 40px;
+  display: flex;
+  gap: 30px;
+  li,
+  img {
+    list-style-type: none;
+    cursor: pointer;
+    align-self: center;
+  }
+}
+.icons--container {
+  display: flex;
+  cursor: pointer;
+}
