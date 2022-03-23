@@ -1,8 +1,8 @@
 import './Navbar.scss'
 import React from 'react'
 import { useNavigate } from 'react-router'
-import vec1 from '../../Assets/Icons/search.svg'
-import vec2 from '../../Assets/Icons/akar-icons_cart.svg'
+import vec1 from '../../assets/Icons/search.svg'
+import vec2 from '../../assets/Icons/akar-icons_cart.svg'
 const Navbar = () => {
   const history = useNavigate()
   const URL = window.location.pathname.split('/')[1]
