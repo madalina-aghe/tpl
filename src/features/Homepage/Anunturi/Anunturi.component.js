@@ -1,6 +1,7 @@
 import './Anunturi.scss'
 import React from 'react'
-import busesImg from '../../../assets/images/autobuze-electrice.jpeg'
+//import busesImg from '../../../assets/images/autobuze-electrice.jpeg'
+import busesImg from '../../../Assets/images/autobuze-electrice.jpeg'
 
 const mockAnunturi = [
   {
