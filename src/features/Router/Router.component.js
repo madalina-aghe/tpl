@@ -13,9 +13,10 @@ import Footer from '../Footer/Footer.component'
 // TODO: Add react router
 const Router = () => {
   return (
-    <BrowserRouter>
-      <Navbar />
-      <div className='page--container'>
+    <div className='page'>
+      <BrowserRouter>
+        <Navbar />
+
         <Routes>
           <Route path='/homepage' element={<Homepage />} />
           <Route path='/aboutus' element={<Aboutus />} />
@@ -27,9 +28,10 @@ const Router = () => {
 
           <Route path='*' element={<Navigate to='/homepage' />} />
         </Routes>
+
         <Footer />
-      </div>
-    </BrowserRouter>
+      </BrowserRouter>
+    </div>
   )
 }
 
