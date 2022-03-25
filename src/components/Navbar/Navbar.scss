@@ -26,3 +26,8 @@
   display: flex;
   cursor: pointer;
 }
+
+.active-link {
+  color: #cc00cc;
+  border-bottom: 1px solid #cc00cc;
+}
