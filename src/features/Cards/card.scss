@@ -1,5 +1,19 @@
-.cards--container {
-}
 .cards--input {
   text-align: center;
+  border: 2px solid #5603ad;
+  border-radius: 15px;
+  height: 300px;
+  box-shadow: 4px 3px 8px 2px #969696;
+  -webkit-box-shadow: 4px 3px 8px 2px #969696;
+  button {
+    background-color: #38b000;
+    //border-radius: 15px;
+  }
+}
+.cards--container {
+  flex: 33%;
+  padding-top: 10px;
+}
+.cards--content {
+  transform: translateY(50px);
 }

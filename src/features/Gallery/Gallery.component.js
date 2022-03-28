@@ -8,7 +8,11 @@ import './gallery.scss'
 const Gallery = () => {
   return (
     <div className='gallery--container'>
-      <Carousel>
+      <div style={{ width: '120px', margin: '0 auto' }}>
+        <h1 style={{ borderBottom: '1px solid black' }}>Gallery</h1>
+      </div>
+
+      <Carousel autoPlay infiniteLoop>
         <div>
           <img src={imgCarosuel1} />
           <p className='legend'>Legend 1</p>
