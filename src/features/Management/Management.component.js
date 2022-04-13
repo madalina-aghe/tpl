@@ -1,5 +1,5 @@
 import React from 'react'
-import './management.scss'
+import './Management.scss'
 
 const Management = () => {
   return <div>Management</div>

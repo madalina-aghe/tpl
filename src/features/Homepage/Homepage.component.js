@@ -1,6 +1,6 @@
 import './Homepage.scss'
 import React from 'react'
-import busesImage from '../../Assets/images/autobuze-electrice.jpeg'
+import busesImage from '../../assets/images/autobuze-electrice.jpeg'
 import { Anunturi } from './Anunturi'
 
 const Homepage = () => {

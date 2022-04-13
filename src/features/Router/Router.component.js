@@ -9,6 +9,7 @@ import React from 'react'
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
 import { Navbar } from '../../components/Navbar/Navbar.component'
 import Footer from '../Footer/Footer.component'
+import './Router.scss'
 
 // TODO: Add react router
 const Router = () => {

@@ -1,7 +1,6 @@
 import './Anunturi.scss'
 import React from 'react'
-//import busesImg from '../../../assets/images/autobuze-electrice.jpeg'
-import busesImg from '../../../Assets/images/autobuze-electrice.jpeg'
+import busesImg from '../../../assets/images/autobuze-electrice.jpeg'
 
 const mockAnunturi = [
   {
@@ -42,7 +41,7 @@ const Anunturi = () => {
             <div className='anunturi__content-title'>{anunt.titlu}</div>
 
             {anunt.descriere}
-            <div className='anunturi__content-date'>{anunt.dataPublicarii}</div>
+            <div className='anunturi__content-date'>{anunt.dataPublicarii.toString()}</div>
           </div>
         ))}
       </div>
