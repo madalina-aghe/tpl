@@ -11,7 +11,6 @@ import { Navbar } from '../../components/Navbar/Navbar.component'
 import Footer from '../Footer/Footer.component'
 import './Router.scss'
 
-// TODO: Add react router
 const Router = () => {
   return (
     <div className='page'>

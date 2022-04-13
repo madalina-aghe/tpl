@@ -14,7 +14,7 @@ const mockAnunturi = [
   PIAȚA BURDUJENI ȘI NU INTRĂ ÎN CARTIERUL OBCINI.',
     titlu: 'REINTRODUCEREA LINIEI 1',
     fotografie: busesImg,
-    dataPublicarii: new Date()
+    dataPublicarii: '24/02/2022'
   },
   {
     descriere:
@@ -27,7 +27,7 @@ const mockAnunturi = [
   PIAȚA BURDUJENI ȘI NU INTRĂ ÎN CARTIERUL OBCINI.',
     titlu: 'REINTRODUCEREA LINIEI 1',
     fotografie: busesImg,
-    dataPublicarii: new Date()
+    dataPublicarii: '24/02/2022'
   }
 ]
 

@@ -1,6 +1,18 @@
 .gallery--container {
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  width: 1000px;
+  height: 600px;
   text-align: center;
-  padding-top: 20px;
+  box-shadow: 4px 3px 8px 1px #969696;
+  -webkit-box-shadow: 4px 3px 8px 1px #969696;
   padding-left: 20px;
   padding-right: 20px;
+}
+.thumbs-wrapper {
+  li {
+    cursor: pointer;
+  }
 }
