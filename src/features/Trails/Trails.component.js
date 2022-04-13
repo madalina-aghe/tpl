@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { TrailsMap } from './components/MapContainer'
 import './Trails.scss'
 import Select from 'react-select'
+import { getRoutes } from '../../services/api'
 
 const trailsMock = [
   {
@@ -37,16 +38,24 @@ const trailsMock = [
 ]
 
 const Trails = () => {
-  const [selectedRouteIndex, setSelectedRouteIndex] = useState(trailsMock.length ? 0 : null)
+  const [selectedRouteIndex, setSelectedRouteIndex] = useState(null),
+    [trails, setTrails] = useState([]),
+    [selectOptions, setSelectOptions] = useState([])
 
   const handleSelectChange = (selectedOption) => {
     setSelectedRouteIndex(selectedOption.value)
   }
 
-  const selectOptions = trailsMock.map((trail, index) => ({
-    value: index,
-    label: trail.name
-  }))
+  useEffect(async () => {
+    const newTrails = await getRoutes()
+    setTrails(newTrails)
+    setSelectOptions(
+      newTrails.map((trail, index) => ({
+        value: index,
+        label: trail.name
+      }))
+    )
+  }, [])
 
   return (
     <div className='trails'>
@@ -59,7 +68,7 @@ const Trails = () => {
         />
       </div>
 
-      <TrailsMap selectedRouteIndex={selectedRouteIndex} trails={trailsMock} />
+      <TrailsMap selectedRouteIndex={selectedRouteIndex} trails={trails} />
     </div>
   )
 }
