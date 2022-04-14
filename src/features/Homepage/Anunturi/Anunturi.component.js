@@ -1,6 +1,7 @@
 import './Anunturi.scss'
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import busesImg from '../../../assets/images/autobuze-electrice.jpeg'
+import { getNews } from '../../../services/api'
 
 const mockAnunturi = [
   {
@@ -32,16 +33,22 @@ const mockAnunturi = [
 ]
 
 const Anunturi = () => {
+  const [news, setNews] = useState([])
+  useEffect(async () => {
+    const newNews = await getNews()
+    setNews(newNews)
+  }, [])
+
   return (
     <div className='anunturi'>
       <div className='anunturi__title'>Anunturi</div>
       <div className='anunturi__content'>
-        {mockAnunturi.map((anunt, index) => (
+        {news.map((anunt, index) => (
           <div key={index} className='anunt'>
-            <div className='anunturi__content-title'>{anunt.titlu}</div>
+            <div className='anunturi__content-title'>{anunt.title}</div>
 
-            {anunt.descriere}
-            <div className='anunturi__content-date'>{anunt.dataPublicarii.toString()}</div>
+            {anunt.descripton}
+            <div className='anunturi__content-date'>{anunt.publication_date}</div>
           </div>
         ))}
       </div>
