@@ -34,7 +34,7 @@ const TrailsMap = ({ selectedRouteIndex, trails }) => {
     >
       {selectedRouteIndex !== null && (
         <>
-          {trails[selectedRouteIndex].stops.map((marker, index) => (
+          {trails[selectedRouteIndex]?.stops?.map((marker, index) => (
             <Marker
               longitude={marker.lng}
               latitude={marker.lat}
