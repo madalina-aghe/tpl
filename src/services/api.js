@@ -10,3 +10,11 @@ export const getRoutes = async () => {
     return []
   }
 }
+export const getNews = async () => {
+  try {
+    return (await axios.get(`${baseUrl}/news/`)).data
+  } catch (error) {
+    console.log(error)
+    return []
+  }
+}
