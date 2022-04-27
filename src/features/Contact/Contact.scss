@@ -6,4 +6,8 @@
   flex-direction: column;
   flex-wrap: nowrap;
   gap: 22px;
+
+  .ant-input {
+    box-sizing: border-box !important;
+  }
 }
