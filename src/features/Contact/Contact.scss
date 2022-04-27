@@ -2,4 +2,8 @@
   width: 80%;
   max-width: 800px;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 22px;
 }

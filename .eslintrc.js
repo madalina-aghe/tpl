@@ -26,6 +26,7 @@ module.exports = {
   rules: {
     'no-unused-vars': ['warn', { vars: 'all', args: 'after-used', ignoreRestSiblings: false }],
     'prettier/prettier': ['error', {}, { usePrettierrc: true }],
-    'no-debugger': ['warn']
+    'no-debugger': ['warn'],
+    'no-useless-escape': ['warn']
   }
 }

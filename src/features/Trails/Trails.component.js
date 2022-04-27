@@ -59,8 +59,9 @@ const Trails = () => {
 
   return (
     <div className='trails'>
+      <h1>Traseele rutelor</h1>
       <div className='select'>
-        <div className='trails__select-label'>Ruta selectata: </div>
+        <div className='trails__select-label'>Selecteaza ruta: </div>
         <Select
           options={selectOptions}
           onChange={handleSelectChange}
