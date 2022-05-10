@@ -7,7 +7,7 @@ const Aboutus = () => {
       <h1 className='aboutus--title'>Scurt istoric</h1>
       <div style={{ textIndent: '50px' }}>
         <p>
-          <b>SC Transport Public Local SA</b>
+          <b>SC Transport Public Local SA </b>
           și-a început activitatea propriu-zisă de la data de 1 octombrie 2005, având ca acţionar
           Consiliul Local Suceava, cu scopul de a continua serviciul de transport public de persoane
           pe raza municipiului Suceava, în urma intrării în faliment a fostei societăţi de transport
@@ -59,7 +59,8 @@ const Aboutus = () => {
         <b>SC Transport Public Local SA Suceava </b>
         este subordonată
         <a href='https://www.primariasv.ro/' target='_blank' rel='noreferrer'>
-          Primariei Municipiului Suceava
+          {' '}
+          Primariei Municipiului Suceava{' '}
         </a>
         şi prestează către populaţie serviciul de transport public de persoane în municipiu.
       </div>

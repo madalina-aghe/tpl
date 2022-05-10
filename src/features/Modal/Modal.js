@@ -14,22 +14,19 @@ const Modal = ({ closeModal }) => {
             onClick={() => closeModal(false)}
           />
         </div>
-        <h1>Shop</h1>
+        <h1>Cos de cumparaturi</h1>
         <div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-            mollit anim id est laborum.
-          </p>
+          <p>Este necesar un card valid pentru a continua plata.</p>
+          <p>Sunteti sigur ca doriti sa continuati?</p>
         </div>
         <div className='buttons--container'>
           <button className='buttons button-cancel' onClick={() => closeModal(false)}>
             Cancel
           </button>
-          <button className='buttons button-send' onClick={() => alert('Pay')}>
+          <button
+            className='buttons button-send'
+            onClick={() => window.open('https://www.revolut.com/', '_blank')}
+          >
             Pay
           </button>
         </div>

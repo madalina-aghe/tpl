@@ -7,9 +7,14 @@
 .footer--align-text {
   display: flex;
   transform: translateY(50%);
+  flex-direction: column;
+  color: white;
+  max-width: 600px;
 }
+
 .footer--btn {
   width: 100px;
   height: 25px;
   border-radius: 10px;
+  color: black;
 }

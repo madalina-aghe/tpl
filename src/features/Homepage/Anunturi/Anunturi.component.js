@@ -46,9 +46,11 @@ const Anunturi = () => {
         {news.map((anunt, index) => (
           <div key={index} className='anunt'>
             <div className='anunturi__content-title'>{anunt.title}</div>
-
-            {anunt.descripton}
-            <div className='anunturi__content-date'>{anunt.publication_date}</div>
+            {/* <img src={anunt.photo} /> */}
+            {anunt.description}
+            <div className='anunturi__content-date'>
+              {new Date(anunt.publication_date).toDateString()}
+            </div>
           </div>
         ))}
       </div>

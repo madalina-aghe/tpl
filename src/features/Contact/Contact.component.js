@@ -79,7 +79,12 @@ const Contact = () => {
 
   return (
     <form ref={form} className='contact' onSubmit={handleSubmit}>
-      <h1>Contacteaza-ne</h1>
+      <h1>Formular de contact</h1>
+      <div>
+        Pentru sugestii sau sesizări ne puteţi contacta la: contact@tpl-sv.ro sau
+        Tel/Fax(secretariat): 0330 401 442 SC TRANSPORT PUBLIC LOCAL SA Str. Traian Vuia nr. 5 A,
+        Suceava, 720 021, ROMANIA
+      </div>
 
       <div>
         <div>Prenume</div>
@@ -95,7 +100,6 @@ const Contact = () => {
           }
         />
       </div>
-
       <div>
         <div>Nume</div>
         <Input
@@ -110,7 +114,6 @@ const Contact = () => {
           }
         />
       </div>
-
       <div>
         <div>Email</div>
         <Input
@@ -123,7 +126,6 @@ const Contact = () => {
           }
         />
       </div>
-
       <div>
         <div>Mesaj</div>
         <Input.TextArea
@@ -139,10 +141,30 @@ const Contact = () => {
           }
         />
       </div>
-
       <Button htmlType='submit' type={isFormInvalid ? 'ghost' : 'primary'}>
         Trimite
       </Button>
+
+      <small
+        style={{
+          padding: '20px',
+          marginTop: '50px'
+        }}
+      >
+        Mesajele anonime sau cele în care nu sunt trecute datele de identificare a petiţionarului nu
+        se iau în considerare (art. 7 din OG nr. 27/2002 privind reglementarea activităţii de
+        soluţionare a petiţiilor cu modificările ulterioare).
+        <br /> Deasemenea mesajele care conţin cuvinte injurioase nu se iau în considerare.
+        Petiţionarul îsi asumă întreaga responsabilitate pentru datele furnizate. Prin PETIŢIE se
+        înţelege cererea, reclamaţia, sesizarea sau propunerea formulată în scris ori prin poşta
+        electronică, pe care un cetăţean sau o organizaţie legal constituită o poate adresa
+        autorităţilor şi instituţiilor publice centrale şi locale, serviciilor publice
+        descentralizate ale ministerelor şi ale celorlalte organe centrale, companiilor si
+        societăţilor naţionale, societăţilor comerciale de interes judeţean sau local, precum şi
+        regiilor autonome, denumite în continuare autorităţi şi instituţii publice. (art. 2 din OG
+        nr. 27/2002 privind reglementarea activităţii de soluţionare a petiţiilor cu modificările
+        ulterioare).
+      </small>
     </form>
   )
 }

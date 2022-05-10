@@ -18,28 +18,28 @@ const Navbar = () => {
           className={URL === 'homepage' ? 'active-link' : ''}
           onClick={() => history('/homepage')}
         >
-          Home
+          Acasa
         </li>
         <li className={URL === 'aboutus' ? 'active-link' : ''} onClick={() => history('/aboutus')}>
-          Aboutus
+          Despre noi
         </li>
         <li className={URL === 'contact' ? 'active-link' : ''} onClick={() => history('/contact')}>
           Contact
         </li>
         <li className={URL === 'trails' ? 'active-link' : ''} onClick={() => history('/trails')}>
-          Routes
+          Trasee
         </li>
         <li className={URL === 'gallery' ? 'active-link' : ''} onClick={() => history('/gallery')}>
-          Gallery
+          Galerie
         </li>
         <li
           className={URL === 'management' ? 'active-link' : ''}
           onClick={() => history('/management')}
         >
-          Management
+          Conducere
         </li>
         <li className={URL === 'tickets' ? 'active-link' : ''} onClick={() => history('/tickets')}>
-          Tickets
+          Bilete
         </li>
         <img
           height={30}

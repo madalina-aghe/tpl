@@ -7,7 +7,7 @@ const Management = () => {
   return (
     <div className='management--container'>
       <h1 style={{ width: '250px', margin: '0 auto', borderBottom: '1px solid black' }}>
-        Management
+        Conducere
       </h1>
       <div style={{ display: 'flex', flexWrap: 'wrap', paddingTop: '10px' }}>
         <Cards cardTitle={''} firstName={'Mihai'} lastName={'Hanceriuc'} />
