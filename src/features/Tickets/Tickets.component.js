@@ -65,106 +65,163 @@ const Tickets = () => {
             {bilet.id === info && bilet.info}
           </div>
         ))} */}
-        <p>&nbsp;</p>
-        <h1>
-          <span>PUNCTELE DE ELIBERARE A ABONAMENTELOR</span>
-        </h1>
-        <p>
-          <span>
-            <strong>1. CENTRU</strong>&nbsp;- Staţia de autobuz&nbsp;
-          </span>
-          <br />
-          <span>Program:</span>
-          <br />
-          <span>
-            <strong>
-              Luni-Vineri 7.00 - 18.00;&nbsp; Sâmbăta, Duminica şi sărbătorile legale închis
-            </strong>
-          </span>
-          <br />
-          <span>
-            Se eliberează abonamente lunare, de 15 zile, de 7 zile, de o zi, nenominale, pentru
-            elevi/studenţi, legitimaţii speciale
+
+        <div>
+          <h2>
+            Preţul biletelor şi abonamentelor de călătorie pentru&nbsp;
             <br />
-          </span>
-        </p>
-        <p>
-          <span>
-            <strong>2. OBCINI</strong>&nbsp;- Staţia de autobuz Flori
-          </span>
-          <br />
-          <span>Program:</span>
-          <br />
-          <span>
-            <strong>
-              Luni-Vineri&nbsp; 7.00 - 15.00;&nbsp; Sâmbăta, Duminica şi sărbătorile legale închis
-            </strong>
-          </span>
-          <br />
-          <span>
-            Se eliberează abonamente lunare, de 15 zile, de 7 zile, de o zi, nenominale, pentru
-            elevi/studenţi
-          </span>
-        </p>
-        <p>
-          <span>
-            <strong>3. BURDUJENI</strong>&nbsp;- Dispecerat capăt linie Gara Burdujeni
-          </span>
-          <br />
-          <span>Program:</span>
-          <br />
-          <span>
-            <strong>
-              Luni-Vineri&nbsp; 5.00 - 22.00;&nbsp; Sâmbăta şi Duminica&nbsp; 8.00 - 16.00
-            </strong>
-          </span>
-          <br />
-          <span>
-            Se eliberează abonamente lunare, de 15 zile, de 7 zile, de o zi, nenominale
+            mijloacele de transport ale &nbsp;SC TPL SA &nbsp;este stabilit&nbsp;
             <br />
-          </span>
-        </p>
-        <p>
-          <span>
-            <strong>4. BURDUJENI</strong>&nbsp;- Dispecerat capăt linie Cinema Burdujeni
-          </span>
-          <br />
-          <span>Program:</span>
-          <br />
-          <span>
+            prin &nbsp;Hotărârea Consiliului Local Suceava&nbsp;
+          </h2>
+          <p>
             <strong>
-              Luni-Vineri&nbsp; 5.00 - 22.00;&nbsp; Sâmbăta şi Duminica&nbsp; 8.00 - 16.00
+              <span>
+                • Preţul unui bilet pentru o persoană pentru o singură călătorie <span>este </span>
+                2,50 lei
+              </span>
             </strong>
-          </span>
-          <br />
-          <span>
-            Se eliberează abonamente lunare, de 15 zile, de 7 zile, de o zi, nenominale
             <br />
-          </span>
-        </p>
-        <p>
-          <span>
-            <strong>5. SEDIUL TPL </strong>&nbsp;- str. Traian Vuia nr. 5A
-          </span>
-          <br />
-          <span>Program:</span>
-          <br />
-          <span>
             <strong>
-              Luni-Vineri&nbsp; 7.00 - 15.00;&nbsp; Sâmbăta, Duminica şi sărbătorile legale închis
+              <span>• Biletul se procură la urcarea în mijlocul de transport de la taxator</span>
+              <span>&nbsp;şi este valabil doar în mijlocul de transport respectiv</span>
             </strong>
-          </span>
+            <br />
+            <strong>
+              <span>
+                • Călătorii au obligaţia de a solicita şi păstra biletul de călătorie&nbsp;
+              </span>
+              <span>
+                asupra lor pe toată durata călătoriei şi de a-l prezenta organelor de control
+              </span>
+            </strong>
+          </p>
           <br />
-          <span>
-            Se eliberează&nbsp;
+          <h3>
             <span>
-              pe bază de comandă scrisă pentru decont cu factură şi chitanţă următoarele&nbsp;
+              Societatea noastră oferă spre vânzare publicului călător următoarele tipuri de
+              abonamente:
             </span>
-            abonamente: pentru o lună, de 15 zile, de 7 zile,{' '}
-          </span>
-          <span>precum şi&nbsp;</span>
-          <span>abonamente cu 50% reducere pentru donatorii de sânge</span>
-        </p>
+          </h3>
+          <p>
+            <span>
+              <span>
+                •{' '}
+                <strong>
+                  Abonament lunar -&nbsp; 75 lei
+                  <br />
+                </strong>
+                <br />
+              </span>
+              • <strong>Abonament 15 zile -&nbsp; 46 lei</strong>
+            </span>
+            <br />
+            <span>
+              <strong>
+                <br />• Abonament 7 zile -&nbsp; 27 lei
+              </strong>
+            </span>
+          </p>
+          <p>
+            <span>
+              <strong>• Abonament pentru o zi -&nbsp; 6 lei</strong>
+            </span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </p>
+          <p>
+            <span>
+              <strong>
+                <span>
+                  <strong>• Abonament nenominal -&nbsp; 115 lei</strong>
+                </span>
+              </strong>
+            </span>
+            <br />
+            <span>
+              <br />
+              <strong>
+                <span>
+                  <strong>• Abonament</strong>
+                </span>{' '}
+                subvenţionat pentru elevi*&nbsp; - &nbsp;Gratuit
+                <br />
+                <br />
+                <span>•&nbsp;</span>
+                <strong>
+                  Abonament subvenţionat pentru studenţi**&nbsp; - &nbsp;37,50 lei
+                  <br />
+                </strong>
+              </strong>
+            </span>
+            <br />
+            <span>
+              <span>
+                <strong>*</strong> &nbsp;abonamentul subvenționat pentru elevi se eliberează
+                elevilor care urmează cursurile unei unităţi de învăţământ de stat din municipiul
+                Suceava&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp;<strong>**</strong> &nbsp;abonamentul subvenționat pentru
+                studenți se eliberează numai studenţilor la zi cu domiciliul stabil în municipiul
+                Suceava <br />
+              </span>
+              <span>
+                - &nbsp;acte necesare pentru eliberare: adeverinţă de elev/student pe anul şcolar în
+                curs&nbsp;
+                <br />
+              </span>
+              <span>
+                <span>-&nbsp;</span> abonamentul pentru elevi/studenţi trebuie însoţit de unul din
+                următoarele documente: actul de identitate în copie sau original; copie după
+                certificatul de naştere; carnetul de elev/legitimaţia de student
+                <br />
+                <br />
+                <span>•&nbsp;</span>
+                <strong>Abonament subvenţionat pentru pensionari&nbsp; -&nbsp; 37,50 lei</strong>
+                <br /> <span>&nbsp; -&nbsp;</span>
+                <span>
+                  acte necesare: actul de identitate, cuponul de pensie în original si în copie
+                </span>
+                <br />
+                <br />
+              </span>
+              • <strong>Abonament cu reducere 50% pentru donatorii de sânge</strong>
+            </span>
+            <br />
+            <span>
+              <span>&nbsp; -&nbsp;</span>acte necesare: actul de identitate, adeverinţa de donator
+            </span>
+          </p>
+          <br />
+          <h3>
+            <span>IMPORTANT!</span>
+          </h3>
+          <p>
+            <span>
+              •{' '}
+              <strong>
+                Abonamentul este valabil pe toate traseele şi mijloacele de transport ale TPL!
+              </strong>
+            </span>
+            <br />
+            <span>
+              •{' '}
+              <strong>
+                Abonamentul poate fi folosit pentru un număr nelimitat de călătorii zilnice!&nbsp;
+              </strong>
+            </span>
+            <br />
+            <span>
+              • <strong>Abonamentul</strong> <strong>NU este transmisibil!</strong>
+            </span>
+          </p>
+        </div>
       </div>
     </div>
   )

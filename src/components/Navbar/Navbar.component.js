@@ -26,6 +26,18 @@ const Navbar = () => {
         <li className={URL === 'contact' ? 'active-link' : ''} onClick={() => history('/contact')}>
           Contact
         </li>
+        <li
+          onClick={() => {
+            history('/homepage')
+            setTimeout(() => {
+              document
+                .getElementsByClassName('homepage__info')?.[0]
+                .scrollIntoView({ behavior: 'smooth', block: 'start' })
+            }, 300)
+          }}
+        >
+          Info calatori
+        </li>
         <li className={URL === 'trails' ? 'active-link' : ''} onClick={() => history('/trails')}>
           Trasee
         </li>
